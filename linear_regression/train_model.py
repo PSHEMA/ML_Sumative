@@ -15,7 +15,7 @@ df = pd.read_csv(file_path)
 # Data Preprocessing
 df.dropna(inplace=True)  # Remove missing values
 
-X = df.drop(columns=["yeild"])  # Features (Assuming "Yield" is target column)
+X = df.drop(columns=["yeild"])  # Features
 y = df["yeild"]  # Target variable
 
 scaler = StandardScaler()
