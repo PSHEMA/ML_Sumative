@@ -6,6 +6,9 @@ This project trains multiple machine learning models (Linear Regression, Decisio
 ```
 ML_Sumative/
 ├── linear_regression/
+│   ├── api/                 # FastAPI application
+│   │   ├── main.py           # FastAPI entry point
+│   │   └── models.py         # FastAPI models
 │   ├── data/
 │   │   └── crop_yield.csv    # Dataset file (Place your dataset here)
 │   ├── train_model.py        # Train models and save the best model
